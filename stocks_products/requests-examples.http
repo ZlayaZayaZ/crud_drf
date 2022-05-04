@@ -93,3 +93,9 @@ Content-Type: application/json
 # поиск складов по описанию товара
 GET {{baseUrl}}/stocks/?product=огур
 Content-Type: application/json
+
+###
+
+# вывод всех существующих складов
+GET {{baseUrl}}/stocks/
+Content-Type: application/json
